@@ -6,7 +6,7 @@ global:
 web1: 
   name: wordpress-web1
   php_display_errors: "0"
-  document_root: wordpress/
+  document_root: /
   shared_writable_dirs: wordpress/wp-content/
   php_extensions:
     - mysql
