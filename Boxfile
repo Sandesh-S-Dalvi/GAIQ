@@ -8,8 +8,10 @@ web1:
   php_display_errors: "0"
   shared_writable_dirs: 
 	- wp-content/
+  php_version: 5.4.14
   php_extensions:
     - mysql
+    - mysqli
     - gd
     - mbstring
     - exif
@@ -17,6 +19,8 @@ web1:
     - mcrypt
     - zip
     - curl
+  after_build:
+    - "cp wordpress/wp-content/themes/virtue wp-content/themes/virtue"
 
 db1:
   name: wordpress-db1
