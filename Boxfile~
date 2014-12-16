@@ -7,7 +7,7 @@ web1:
   name: wordpress-web1
   php_display_errors: "0"
   shared_writable_dirs: 
-	- wp-content/
+         - wp-content/
   php_version: 5.4.14
   php_extensions:
     - mysql
