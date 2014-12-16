@@ -19,8 +19,7 @@ web1:
     - mcrypt
     - zip
     - curl
-  after_build:
-    - "cp wp-content/themes/virtue wp-content/themes/virtue"
+
 
 db1:
   name: wordpress-db1

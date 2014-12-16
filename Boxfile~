@@ -20,7 +20,7 @@ web1:
     - zip
     - curl
   after_build:
-    - "cp wordpress/wp-content/themes/virtue wp-content/themes/virtue"
+    - "cp wp-content/themes/virtue wp-content/themes/virtue"
 
 db1:
   name: wordpress-db1
